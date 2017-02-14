@@ -566,3 +566,65 @@ section h3.section-subheading {
 
     }
 }
+
+/*Responsivo*/
+
+/*@media(min-width:768px) */
+
+@media (max-width:768px) {
+
+    
+    li.iconS{
+     width: 100vh;
+    display: inline-table;
+    padding-left: 33%;
+    }
+
+    section.contact{
+     height: 61em;
+    }
+    section.success{
+            height: 52em;
+    }
+
+    section.trabajos{
+        height:121em!important;
+    }
+
+  .rosa{
+    margin-top:16%!important;
+    }
+
+    section.skills{
+        height:85em!important;
+    }
+
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent; /* Listo Menu transparente hasta arriba*/
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: black; /*Listo Color de la barra cuando baja*/
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
