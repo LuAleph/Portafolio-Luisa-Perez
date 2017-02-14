@@ -556,6 +556,7 @@ section h3.section-subheading {
 
 /*@media(min-width:768px) */
 
+/*
 @media (max-width:768px) {
 
     
@@ -587,7 +588,7 @@ section h3.section-subheading {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent; /* Listo Menu transparente hasta arriba*/
+        background-color: transparent; 
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -606,10 +607,11 @@ section h3.section-subheading {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: black; /*Listo Color de la barra cuando baja*/
+        background-color: black; 
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
 }
+*/
