@@ -3,9 +3,6 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.oculto{
-    display: none;
-}
 @font-face{
   font-family:"coolvetica";
   src: url(../fonts/coolvetica.ttf) format("truetype");
@@ -62,9 +59,8 @@ font-family: "coolvetica";
 
 
 .mifoto{
-
-    width: 150px!important;
-    height: 150px!important;
+    width: 200px;
+    height: 250px;
     border-radius: 100%;
     margin-bottom: 4%;
 }
@@ -78,6 +74,12 @@ font-family: "coolvetica";
 }
 
 
+@media(min-width:768px) {
+    section {
+        padding: 110px 0;
+
+    }
+}
 
 #frase{
     color:gray;
@@ -239,22 +241,11 @@ margin: auto;
 }
 
 
-
-/*@media(min-width:768px) */
-
-/*@media (min-width: 768px) {
-
-  .rosa{
-    margin-top: 16%!important;
-    }
-
-    section#Skill{
-        height: 85em!important;
-    }
+@media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent; 
+        background-color: transparent; /* Listo Menu transparente hasta arriba*/
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -273,13 +264,13 @@ margin: auto;
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: black; 
+        background-color: black; /*Listo Color de la barra cuando baja*/
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}*/
+}
 
 p{
     font-size: 16px;
@@ -560,14 +551,8 @@ section h3.section-subheading {
   transform: scale(1.1);
 }
 
-@media(min-width:768px) {
-    section {
-        padding: 110px 0;
 
-    }
-}
-
-/*Responsivo*/
+/*responsive*/
 
 /*@media(min-width:768px) */
 
