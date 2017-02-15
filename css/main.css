@@ -3,6 +3,12 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+@media (orientation: portrait) {
+	#portrait{
+		display: block;
+          }
+}
+
 @font-face{
   font-family:"coolvetica";
   src: url(../fonts/coolvetica.ttf) format("truetype");
