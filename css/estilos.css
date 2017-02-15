@@ -5,7 +5,11 @@
     html{
         overflow-x: hidden;
     }
-
+   footer {
+     padding-top: 4em;
+     margin-top: 100%!important;
+  }
+    
     header h2 {
     padding-top: 3em!important;
     font-size: 30px;
